@@ -1,0 +1,92 @@
+.botom {
+  width: 100%;
+  padding: 10px;
+  background: url(../../img/6.png);
+  background-size: cover;
+  color: rgb(222, 215, 215);
+}
+.botom .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.botom .container .left {
+  width: 40%;
+  text-align: center;
+}
+.botom .container .center {
+  width: 40%;
+  text-align: center;
+}
+.botom .container .center button {
+  padding: 5px 10px;
+  margin: 10px 10px;
+  background-color: black;
+  color: rgb(191, 189, 189);
+  border-color: rgb(234, 232, 232);
+}
+.botom .container .right {
+  width: 40%;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.botom .container .right button {
+  padding: 5px 10px;
+  background-color: rgb(103, 101, 101);
+  color: rgb(210, 205, 205);
+  border: none;
+}
+.botom .container .right button:nth-child(2) {
+  background-color: black;
+  color: #fff;
+}
+@media screen and (max-width: 375px) {
+  .botom .container {
+    width: 100%;
+  }
+  .botom .container .left {
+    width: 30%;
+    font-size: 10px;
+  }
+  .botom .container .center {
+    width: 30%;
+    font-size: 10px;
+  }
+  .botom .container .right {
+    width: 30%;
+    font-size: 10px;
+  }
+  .botom .container .right button {
+    padding: 0px 5px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .botom .container {
+    width: 100%;
+  }
+  .botom .container .left {
+    width: 40%;
+    font-size: 15px;
+  }
+  .botom .container .center {
+    width: 40%;
+    font-size: 15px;
+  }
+  .botom .container .right {
+    width: 40%;
+    font-size: 15px;
+  }
+  .botom .container .right button {
+    padding: 0px 5px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .botom .container {
+    width: 100%;
+  }
+}

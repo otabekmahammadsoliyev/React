@@ -1,0 +1,42 @@
+.cent {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(51, 49, 49);
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.cent .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.cent .container .boxc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 375px) {
+  .cent .container {
+    width: 100%;
+  }
+  .cent .container .boxc {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .cent .container {
+    width: 100%;
+  }
+  .cent .container .boxc {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .cent .container {
+    width: 100%;
+  }
+  .cent .container .boxc {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,38 @@
+.one {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+.one .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.one .container .bob {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.one .container .bob .card img {
+  padding: 10px;
+  background-color: rgb(51, 49, 49);
+}
+@media screen and (max-width: 375px) {
+ .one .container {
+  width: 100%;
+ }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+.one .container {
+  width: 100%;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+.one .container {
+  width: 100%;
+}
+}

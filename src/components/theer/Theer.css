@@ -1,0 +1,46 @@
+.two {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+}
+.two .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.two .container .left img {
+  width: 450px;
+}
+.two .container .right {
+  width: 50%;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 375px) {
+  .two .container {
+    width: 100%;
+  }
+  .two .container .right {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .two .container {
+    width: 100%;
+  }
+  .two .container .right {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .two .container {
+    width: 100%;
+  }
+}
